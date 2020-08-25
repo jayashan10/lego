@@ -1,8 +1,5 @@
-coded file in tflow.ipynb
-Lego images classification:
-we were given training data consisting of lego block images taken in different angles and were asked to predict the classification of the test data.
-I used convoution networks for training.
-I did two trainings using image genaraator for data augmentation and another training without augmentation.The final result is saved in the Testfinal.csv file which in question_1_dataset directory. I run different models in the code and both took about 8 to 10 minutes to run.
+The image dataset contains images of lego bricks generated on computers for different angles. The aim of the project is to classify those images. There are actually 16 categories present in the dataset. The model was created using Convolution networks on Keras. I tried applying various regularizers like dropout, ridge regression, Data augmentation etc..
+Lets see the effect on them!
 
 
 
